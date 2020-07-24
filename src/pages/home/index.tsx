@@ -1,12 +1,14 @@
 import React from "react";
 import Layout from "@layout";
 
-import { Container } from "@styles/home";
+import { Container, Banner } from "@styles/home";
 
 const HomePage = () => {
   return (
     <Layout>
-      <Container></Container>
+      <Container>
+        <Banner src="/banner.png" alt="banner" />
+      </Container>
     </Layout>
   );
 };
