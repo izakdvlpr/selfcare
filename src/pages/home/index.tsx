@@ -1,12 +1,14 @@
 import React from "react";
 import Layout from "@layout";
 
-const IndexPage = () => {
+import { Container } from "@styles/home";
+
+const HomePage = () => {
   return (
     <Layout>
-      <h1>hello world</h1>
+      <Container></Container>
     </Layout>
   );
 };
 
-export default IndexPage;
+export default HomePage;

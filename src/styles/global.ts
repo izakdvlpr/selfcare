@@ -15,6 +15,18 @@ export default createGlobalStyle`
   html, body #root {
     height: 100%;   
     
-    background-color: ${colors.quaternary};
+    background-color: ${colors.white};
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: ${colors.secondary}
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: ${colors.primary}
   }
 `;

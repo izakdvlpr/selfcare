@@ -1,6 +1,9 @@
 import React from "react";
 import Head from "next/head";
 
+import Navigation from "@components/Navigation";
+import Footer from "@components/Footer";
+
 interface Props {
   title?: string;
 }
@@ -17,7 +20,9 @@ const Layout: React.FC<Props> = ({ children, title = "" }) => (
         rel="stylesheet"
       />
     </Head>
+    <Navigation />
     {children}
+    <Footer />
   </div>
 );
 
