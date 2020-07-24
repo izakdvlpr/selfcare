@@ -5,7 +5,7 @@ import { FiSearch, FiUser, FiShoppingCart } from "react-icons/fi";
 
 import colors from "../../styles/colors";
 
-export const Container = styled.div`
+export const Container = styled.nav`
   height: 100px;
 
   padding: 0 35px;
