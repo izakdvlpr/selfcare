@@ -63,7 +63,7 @@ Desafio front-end da comunidade [DevChallenge](https://discord.gg/yvYXhGj).
 
 ## :arrow_forward: Como utilizar
 
-- Primeiro passo, clone o projeto em sua maquina: `git clone https://github.com/zevdvlpr/wisegoat`
+- Primeiro passo, clone o projeto em sua maquina: `git clone https://github.com/zevdvlpr/selfcare`
 - Abra a pasta do projeto no terminal.
 - Instale as dependências com o comando: `yarn install`
 - Inicie o servidor de desenvolvimento com o comando: `yarn dev`
