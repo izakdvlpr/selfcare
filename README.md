@@ -67,7 +67,7 @@ Desafio front-end da comunidade [DevChallenge](https://discord.gg/yvYXhGj).
 - Abra a pasta do projeto no terminal.
 - Instale as dependências com o comando: `yarn install`
 - Inicie o servidor de desenvolvimento com o comando: `yarn dev`
-- Abra uma aba no navegar e navegue para: `http://localhost:3000`
+- Abra uma aba no navegador e navegue para: `http://localhost:3000`
 
 ## :recycle: Como Contribuir
 
