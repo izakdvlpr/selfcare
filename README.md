@@ -10,7 +10,7 @@
   <a href="#recycle-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   
   <a href="https://github.com/zevdvlpr/selfcare/blob/master/LICENSE"><img src="https://img.shields.io/github/license/zevdvlpr/selfcare?color=0080ff&label=License&style=flat-square" alt="License"></a>
-  <a href="https://selfcare-zevdvlpr.vercel.app"><img src="https://img.shields.io/badge/Deploy-View%20Site-0080ff?style=flat-square" alt="Deploy"></a>    
+  <a href="https://selfcare-zevdvlpr.vercel.app"><img src="https://img.shields.io/badge/Deploy-View%20Site-0080ff?style=flat-square" alt="Deploy"></a>
   </a>
 </div>
 
