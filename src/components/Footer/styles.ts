@@ -4,7 +4,7 @@ import { lighten } from "polished";
 
 import { FiInstagram, FiFacebook } from "react-icons/fi";
 
-import colors from "../../styles/colors";
+import colors from "@styles/colors";
 
 export const Container = styled.div`
   height: 180px;

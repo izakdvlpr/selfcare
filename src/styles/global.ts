@@ -9,7 +9,7 @@ export default createGlobalStyle`
     
     box-sizing: border-box;    
     
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
   }
   
   html, body #root {

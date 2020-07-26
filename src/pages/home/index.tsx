@@ -3,7 +3,7 @@ import Layout from "@layout";
 
 import List from "@components/List";
 
-import { Container, Banner, Detail } from "@styles/home";
+import { Container, Banner, Detail } from "./styles";
 
 const HomePage = () => {
   return (

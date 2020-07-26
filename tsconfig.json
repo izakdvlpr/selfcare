@@ -27,7 +27,7 @@
       "@data/*": ["data/*"],
       "@interfaces/*": ["interfaces/*"],
       "@layout": ["layout"],
-      "@styles/*": ["styles/pages/*"]
+      "@styles/*": ["styles/*"]
     }
   },
   "exclude": ["node_modules"],
