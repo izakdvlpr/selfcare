@@ -1,4 +1,4 @@
-<div align="center">  
+<div align="center">    
   <h1>Selfcare</h1>
   <p>Página para exibição de produtos
 </p>
@@ -17,7 +17,7 @@
 
 ## :keyboard: Resultado
 
-<img src="https://github.com/zevdvlpr/selfcare/blob/master/public/result.gif"/>
+<img src="https://github.com/zevdvlpr/selfcare/blob/master/public/result.gif" alt="result" />
 
 ## :page_with_curl: Sobre
 
