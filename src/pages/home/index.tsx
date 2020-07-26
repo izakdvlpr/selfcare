@@ -3,9 +3,9 @@ import Layout from "@layout";
 
 import List from "@components/List";
 
-import { Banner, Detail } from "./styles";
+import { Banner, Detail } from "@styles/pages/home";
 
-const HomePage = () => (
+const HomePage: React.FC = () => (
   <Layout>
     <Banner />
     <Detail>
@@ -14,6 +14,6 @@ const HomePage = () => (
     </Detail>
     <List />
   </Layout>
-);
+)
 
 export default HomePage;
