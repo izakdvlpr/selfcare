@@ -3,21 +3,17 @@ import Layout from "@layout";
 
 import List from "@components/List";
 
-import { Container, Banner, Detail } from "./styles";
+import { Banner, Detail } from "./styles";
 
-const HomePage = () => {
-  return (
-    <Layout>
-      <Container>
-        <Banner src="/banner.png" alt="banner" />
-        <Detail>
-          <strong>Promoção</strong>
-          <span>9 produtos</span>
-        </Detail>
-        <List />
-      </Container>
-    </Layout>
-  );
-};
+const HomePage = () => (
+  <Layout>
+    <Banner />
+    <Detail>
+      <strong>Promoção</strong>
+      <span>9 produtos</span>
+    </Detail>
+    <List />
+  </Layout>
+);
 
 export default HomePage;

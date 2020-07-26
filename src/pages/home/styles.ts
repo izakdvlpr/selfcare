@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  height: calc(100vh - 100px);  
-`;
-
-export const Banner = styled.img`
-  height: 350px;
-  width: 100%;
+export const Banner = styled.div`
+  height: 300px;   
+  
+  background: url('banner.png') no-repeat center;
+  background-size: cover; 
+  
+  @media (max-width: 425px)  {
+    height: 200px;
+  }
 `;
 
 export const Detail = styled.div`
@@ -17,4 +19,8 @@ export const Detail = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;    
+  
+  > strong {    
+    text-transform: uppercase;
+  }
 `;

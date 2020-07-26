@@ -1,21 +1,28 @@
 import React from "react";
 
-import { Content, Image, Description, Price } from "./styles";
+import { Content, Image, Price } from "./styles";
 
 interface Item {
   data: {
     id?: number;
     image_uri?: string;
     description?: string;
-    price?: number; 
-  }
+    price?: number | any;
+  };
 }
 
-const ItemComponent: React.FC<Item> = ({ data }) => (
+const ItemComponent: React.FC<Item> = ({
+  data: { image_uri, description, price },
+}) => (
   <Content>
-    <Image src={data.image_uri} alt="item" />
-    <Description>{data.description}</Description>
-    <Price>{data.price}</Price>
+    <Image src={image_uri} alt="item" />
+    <strong>{description}</strong>
+    <Price>
+      {Intl.NumberFormat("pt-BR", {
+        style: "currency",
+        currency: "BRL",
+      }).format(price)}
+    </Price>
   </Content>
 );
 
